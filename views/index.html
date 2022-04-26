@@ -52,10 +52,14 @@
 
           {% endfor %}
       </ul>
-     
+    
+    {% for unclearExample in unclearExamples %}  
+
+    {% if unclearExample != 0 %}
     <h2>Unclear examples</h2>
+    {% endif %}
       <ul class="unclear-list">
-          {% for unclearExample in unclearExamples %}
+ 
 
               {% if unclearExample != 0 %}
                 <li>{{unclearExample}}</li>

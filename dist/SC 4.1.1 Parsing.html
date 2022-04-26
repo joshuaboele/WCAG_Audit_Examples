@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
-    <title>SC 1.2.4 Captions (Live)</title>
+    <title>SC 4.1.1 Parsing</title>
 </head>
 <body>
   <div class="container">
@@ -217,14 +217,14 @@
     </div>
   <div class="content">
 
-    <h1 class="criterion-name">SC 1.2.4 Captions (Live)</h1>
+    <h1 class="criterion-name">SC 4.1.1 Parsing</h1>
 
     <h2>Passed examples</h2>
       <ul class="passed-list">
           
 
               
-                <li>Er is live video en er wordt onmiddelijk ondertitels aangeboden. De onderitels zijn niet foutloos aangezien iemand live meetypt.</li>
+                <li>De pagina bevat een heleboel HTML gramatica fouten maar heeft geen dubbele ID's, geen dubbele attributen binnen een enkel element, en alle elementen hebben correcte begin en eindtags die correct binnen elkaar genest zijn.</li>
               
 
               
@@ -237,7 +237,14 @@
       <ul class="failed-list">
           
               
-                <li>Er is live video maar er zijn geen ondertitels geboden.</li>
+                <li>Een enkele ID waarde wordt op dezelfde pagina binnen twee verschillende elementen gebruikt.</li>
+              
+              
+              
+
+          
+              
+                <li>Een img element heeft twee alt attributen met dezelfde waarde er in.</li>
               
               
               
