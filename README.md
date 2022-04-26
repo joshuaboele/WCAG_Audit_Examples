@@ -2,13 +2,13 @@
 This is a repository that will hopefully be filled with examples of situation that either pass or fail specific WCAG SC. It will also house examples about which there is no clear consensus wether or not they pass or fail WCAG. It can house many forms of examples, not just HTML examples. For example, currently WCAG is also used to see if mobile apps comply to WCAG. This repository could house screenshots or even descriptions of situations that would either pass or fail WCAG.
 
 # current status of this repository
-At the time of writing (10 August 2021) this repository holds 0 examples and is just a draft. It will likely be filled with errors and dumb ideas. Please feel free to laugh at it or give us feedback so we can improve it.
+At the time of writing (26 april 2022) this repository holds atleast one example for each WCAG SC.. It will likely be filled with errors and dumb ideas. Please feel free to laugh at it or give us feedback so we can improve it, incase you want to add examples to it, do so through a pull request. Examples can be added in the `app.js` file.
 
 # WCAG
 WCAG stands for Web Contect Accessibilty Guidlines and is a set of guidelines that can be followed to make sure your web content is accessible for all users. For more information see https://www.w3.org/WAI/standards-guidelines/wcag/
 
 # The problem
-WCAG tries to both be very objective and technology agnostic in it's wording. This leads to many situations where it is unclear whether or not a certain situation should pass or fail WCAG, even to senior professional auditors.
+WCAG tries to both be very objective and technologically agnostic in it's wording. This leads to many situations where it is unclear whether or not a certain situation should pass or fail WCAG, even to senior professional auditors.
 
 # One of the solutions
 One way to try and solve this issue is simply to discuss the situation in question amonst auditors and to document the conclusion of the discussion (and maybe the arguments used to reach this conclusion). This already happens within many organisations that perform audits, but there is not yet a platform to discuss and document these situations on an international scale. This repository tries to be that platform.
